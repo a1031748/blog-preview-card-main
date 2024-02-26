@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(47, 88%, 63%);
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.wrap .container {
+  width: 300px;
+  height: 420px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 10px 0 0 rgb(0, 0, 0);
+}
+.wrap .container .img {
+  position: relative;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  height: 45%;
+}
+.wrap .container .img svg {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 15px;
+}
+.wrap .container .txt_1 {
+  padding: 0 14px;
+  margin: -10px 0;
+}
+.wrap .container .txt_1 p {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: hsl(0, 0%, 7%);
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.wrap .container .txt_1 span {
+  color: hsl(0, 0%, 7%);
+  font-size: 12px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+.wrap .container .txt_2 {
+  padding: 0 14px;
+  margin: -15px 0;
+}
+.wrap .container .txt_2 h4 {
+  color: hsl(47, 88%, 63%);
+  font-size: 18px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+}
+.wrap .container .txt_2 p {
+  color: hsl(0, 0%, 7%);
+  font-size: 12px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 400;
+  margin: -10px 0;
+  line-height: 18px;
+}
+.wrap .container .profile {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding: 0 14px;
+}
+.wrap .container .profile .pic {
+  background-image: url("./assets/images/image-avatar.webp");
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+.wrap .container .profile h3 {
+  padding: 0 10px;
+  color: hsl(0, 0%, 7%);
+  font-size: 12px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+}/*# sourceMappingURL=style.css.map */
